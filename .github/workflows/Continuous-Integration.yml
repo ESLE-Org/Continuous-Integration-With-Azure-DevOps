@@ -22,6 +22,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
         with:
-          context: target/docker/CICDSample
+          context: target/docker/continuous_integration
           push: true
-          tags: user/cicd_sample:latest
+          tags: user/Continuous-Integration-With-Azure-DevOps:latest
