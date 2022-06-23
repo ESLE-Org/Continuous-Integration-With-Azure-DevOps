@@ -1,11 +1,5 @@
-[package]
-distribution = "2201.0.3"
-
-[build-options]
-observabilityIncluded = true
-
 [container.image]
-repository="viradhanus"
+repository="continuous_integration"
 name="cicd_samples"
 tag="v0.1.0"
 
