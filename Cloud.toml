@@ -1,6 +1,6 @@
 [container.image]
-repository="continuous_integration"
-name="Continuous-Integration-With-Azure-DevOps"
+repository="viradhanus"
+name="continuous_integration"
 tag="v0.1.1"
 
 [cloud.deployment]
